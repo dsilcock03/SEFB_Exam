@@ -6,13 +6,13 @@ import java.awt.*;
 
 public class UserInterface {
     private JPanel mainPanel = new JPanel();
-    private PatientInterface patientPanel = new PatientInterface();
+    private PatientInterface patientPanel1 = new PatientInterface();
 
-    public UserInterface() {
+    public UserInterface(){
         mainPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
         mainPanel.setLayout(new GridLayout(2, 1));
 
-        mainPanel.add(patientPanel);
+        mainPanel.add(patientPanel1);
     }
     public JPanel getMainPanel(){
         return mainPanel;
