@@ -9,6 +9,7 @@ public class PatientInterface extends JPanel {
     private PatientDetails patientDetails = new PatientDetails();
     private ExaminationOutputs examinationOutputs = new ExaminationOutputs();
     private PatientImage patientImage = new PatientImage();
+    private MRIImage mriImage = new MRIImage();
 
     public PatientInterface(){
         patientPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
@@ -16,6 +17,7 @@ public class PatientInterface extends JPanel {
 
         patientPanel.add(patientImage);
         patientPanel.add(patientDetails);
+        patientPanel.add(mriImage);
         patientPanel.add(examinationOutputs);
         add(patientPanel);
     }

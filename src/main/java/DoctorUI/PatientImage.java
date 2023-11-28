@@ -5,7 +5,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class PatientImage extends JPanel {
-    //private JLabel patientImage = new JLabel();
 
     public PatientImage(){
         JLabel patientImage = new JLabel();
