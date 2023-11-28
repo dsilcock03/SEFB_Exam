@@ -11,7 +11,7 @@ public class ExaminationOutputs extends JPanel {
     public ExaminationOutputs(){
         JPanel eo = new JPanel();
         eo.setLayout(new GridLayout(3, 1));
-        bloodPressure.setText(systolicPressure+" over "+diastolicPressure);
+        bloodPressure.setText("<html>Blood Pressure<br>"+systolicPressure+" over "+diastolicPressure);
         eo.add(bloodPressure);
         add(eo);
     }

@@ -4,8 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class PatientDetails extends JPanel {
-    private JLabel patientName = new JLabel("Daphne Von Oram");
-    private JLabel patientAge = new JLabel("62");
+    private JLabel patientName = new JLabel();
+    private JLabel patientAge = new JLabel();
 
     public PatientDetails(){
         JPanel pd = new JPanel();
